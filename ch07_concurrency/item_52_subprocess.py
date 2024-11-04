@@ -158,7 +158,7 @@ except subprocess.TimeoutExpired:
     proc.terminate()
     proc.wait()
 
-print('Exit status', proc.pll())
+print('Exit status', proc.poll())
 
 
 
